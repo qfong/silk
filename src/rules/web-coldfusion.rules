@@ -1,0 +1,42 @@
+#################################
+#	Copyright(C) cs2c, Inc		#
+#		All rights reserved		#
+#################################
+#---------------------
+# WEB-COLDFUSION RULES
+#---------------------
+rule level:"alert"; msg:"WEB-COLDFUSION cfcache.map access"; uricontent:"/cfcache.map"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION exampleapp application.cfm"; uricontent:"/cfdocs/exampleapp/email/application.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION application.cfm access"; uricontent:"/cfdocs/exampleapp/publish/admin/application.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION getfile.cfm access"; uricontent:"/cfdocs/exampleapp/email/getfile.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION addcontent.cfm access"; uricontent:"/cfdocs/exampleapp/publish/admin/addcontent.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION administrator access"; uricontent:"/cfide/administrator/index.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION datasource username attempt"; content:"CF_SETDATASOURCEUSERNAME|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION fileexists.cfm access"; uricontent:"/cfdocs/snippets/fileexists.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION exprcalc access"; uricontent:"/cfdocs/expeval/exprcalc.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION parks access"; uricontent:"/cfdocs/examples/parks/detail.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION cfappman access"; uricontent:"/cfappman/index.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION beaninfo access"; uricontent:"/cfdocs/examples/cvbeans/beaninfo.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION evaluate.cfm access"; uricontent:"/cfdocs/snippets/evaluate.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION getodbcdsn access"; content:"CFUSION_GETODBCDSN|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION db connections flush attempt"; content:"CFUSION_DBCONNECTIONS_FLUSH|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION expeval access"; uricontent:"/cfdocs/expeval/"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-COLDFUSION datasource passwordattempt"; content:"CF_SETDATASOURCEPASSWORD|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION datasource attempt"; content:"CF_ISCOLDFUSIONDATASOURCE|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION admin encrypt attempt"; content:"CFUSION_ENCRYPT|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION displayfile access"; uricontent:"/cfdocs/expeval/displayopenedfile.cfm"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION getodbcin attempt"; content:"CFUSION_GETODBCINI|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION admin decrypt attempt"; content:"CFUSION_DECRYPT|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION mainframeset access"; uricontent:"/cfdocs/examples/mainframeset.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION set odbc ini attempt"; content:"CFUSION_SETODBCINI|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION settings refresh attempt"; content:"CFUSION_SETTINGS_REFRESH|28 29|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION exampleapp access"; uricontent:"/cfdocs/exampleapp/"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION CFUSION_VERIFYMAIL access"; content:"CFUSION_VERIFYMAIL|28 29|"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-COLDFUSION snippets attempt"; uricontent:"/cfdocs/snippets/"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION cfmlsyntaxcheck.cfm access"; uricontent:"/cfdocs/cfmlsyntaxcheck.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION application.cfm access"; uricontent:"/application.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION onrequestend.cfm access"; uricontent:"/onrequestend.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION startstop DOS access"; uricontent:"/cfide/administrator/startstop.html"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-COLDFUSION gettempdirectory.cfm access "; uricontent:"/cfdocs/snippets/gettempdirectory.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION sendmail.cfm access"; uricontent:"/sendmail.cfm"; classtype:attempted-recon; 
+rule level:"alert"; msg:"WEB-COLDFUSION ?Mode=debug attempt"; uricontent:"Mode=debug"; classtype:web-application-activity; 

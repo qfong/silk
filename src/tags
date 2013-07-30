@@ -1,0 +1,764 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTIVATION	ids/sk_detect.h	13;"	d
+ALERT	ids/sk_detect.h	15;"	d
+BINARY	ids/mwm.c	/^}BINARY;$/;"	t	typeref:struct:__anon8	file:
+BITOP	ids/bitop.h	/^} BITOP;$/;"	t	typeref:struct:_BITOP
+BITOP_TEST	ids/mwm.h	34;"	d
+BWSHIFTABLESIZE	ids/mwm.h	145;"	d
+CDECL	ids/mwm.h	68;"	d
+CONF_FILE_PATH	ids/sk_ids.h	17;"	d
+CONF_FILE_PATH	ids/test/sk_ids.h	17;"	d
+COPY_PATTERNS	ids/mwm.c	265;"	d	file:
+COPY_PATTERNS	ids/mwm.h	72;"	d
+ConvCaseToUpper	ids/mwm.c	/^static INLINE void ConvCaseToUpper( unsigned char *s, int m )$/;"	f	file:
+ConvCaseToUpperEx	ids/mwm.c	/^static INLINE void ConvCaseToUpperEx( unsigned char * d, unsigned char *s, int m )$/;"	f	file:
+DEFAULT_BUF_LEN	ids/sk_ids.h	20;"	d
+DEFAULT_BUF_LEN	ids/test/sk_ids.h	20;"	d
+DEL_CHIEF_SPACE	ids/sk_tools.h	58;"	d
+DETECT_LOG_PATH	ids/sk_ids_log.h	15;"	d
+DYNAMIC	ids/sk_detect.h	14;"	d
+ENGINE_NUM	ids/sk_detect.h	10;"	d
+ERR_LOG_PATH	ids/sk_ids_log.h	14;"	d
+FAIL	ids/sk_tools.h	26;"	d
+FATAL_ERR	ids/sk_tools.h	40;"	d
+FATAL_ERR_CHECK	ids/sk_tools.h	45;"	d
+FILE_LINE_LEN	ids/sk_ids.h	13;"	d
+FILE_LINE_LEN	ids/test/sk_ids.h	13;"	d
+FILE_PATH_LEN	ids/sk_ids.h	15;"	d
+FILE_PATH_LEN	ids/test/sk_ids.h	15;"	d
+FREE	ids/sk_tools.h	50;"	d
+FatalError	ids/mwm.c	/^int FatalError( char * s, ...)$/;"	f
+FatalError	ids/sk_tools.c	/^void FatalError(const char *format,...)$/;"	f
+HASH16	ids/mwm.c	/^static unsigned HASH16( unsigned char * T )$/;"	f	file:
+HASHBYTES16	ids/mwm.h	83;"	d
+HASHTABLESIZE	ids/mwm.h	82;"	d
+HASH_TYPE	ids/mwm.h	143;"	d
+HBM_STRUCT	ids/mwm.h	/^}HBM_STRUCT;$/;"	t	typeref:struct:__anon7
+INCLEVEL	ids/sk_ids.h	/^ enum INCLEVEL$/;"	g
+INCLEVEL	ids/test/sk_ids.h	/^ enum INCLEVEL$/;"	g
+INLINE	ids/bitop.h	44;"	d
+INLINE	ids/bitop.h	50;"	d
+INLINE	ids/mwm.h	49;"	d
+INLINE	ids/mwm.h	58;"	d
+LOG	ids/sk_detect.h	17;"	d
+M	ids/mwm.h	/^ int            M;$/;"	m	struct:__anon7
+MAIN_CONF	ids/sk_ids.h	/^     MAIN_CONF = 0,$/;"	e	enum:INCLEVEL
+MAIN_CONF	ids/test/sk_ids.h	/^     MAIN_CONF = 0,$/;"	e	enum:INCLEVEL
+MAX_LOG_LEN	ids/sk_ids_log.h	13;"	d
+MTH_BM	ids/mwm.h	141;"	d
+MTH_MWM	ids/mwm.h	140;"	d
+MWM_FEATURES	ids/mwm.h	80;"	d
+MWM_PATTERN_STRUCT	ids/mwm.h	/^} MWM_PATTERN_STRUCT;$/;"	t	typeref:struct:_mwm_pattern_struct
+MWM_STRUCT	ids/mwm.h	/^} MWM_STRUCT;$/;"	t	typeref:struct:_mwm_struct
+NIDS_SEND_LEN	ids/sk_ids.h	23;"	d
+NIDS_SEND_LEN	ids/test/sk_ids.h	23;"	d
+NIDS_SID_LEN	ids/sk_ids.h	22;"	d
+NIDS_SID_LEN	ids/test/sk_ids.h	22;"	d
+NOCASE	ids/sk_detect.h	8;"	d
+NOR_ERR	ids/sk_tools.h	28;"	d
+NOR_ERR_CHECK	ids/sk_tools.h	33;"	d
+ONE_CHECK	ids/sk_tools.h	63;"	d
+P	ids/mwm.h	/^ unsigned char *P;$/;"	m	struct:__anon7
+PARSERULE_SIZE	ids/sk_ids.h	14;"	d
+PARSERULE_SIZE	ids/test/sk_ids.h	14;"	d
+PASS	ids/sk_detect.h	16;"	d
+POOL_COUNT	ids/sk_mem_pool.h	/^typedef unsigned int POOL_COUNT;$/;"	t
+POOL_COUNT	ids/test/sk_mem_pool.h	/^typedef unsigned int POOL_COUNT;$/;"	t
+RULES_FILE_DIR	ids/sk_ids.h	16;"	d
+RULES_FILE_DIR	ids/test/sk_ids.h	16;"	d
+RULE_CONF	ids/sk_ids.h	/^     RULE_CONF = 1,$/;"	e	enum:INCLEVEL
+RULE_CONF	ids/test/sk_ids.h	/^     RULE_CONF = 1,$/;"	e	enum:INCLEVEL
+RULE_CONTENT	ids/sk_ids.h	/^     RULE_CONTENT = 0x03,$/;"	e	enum:RULE_TYPE
+RULE_CONTENT	ids/test/sk_ids.h	/^     RULE_CONTENT = 0x03,$/;"	e	enum:RULE_TYPE
+RULE_INCLUDE	ids/sk_ids.h	/^     RULE_INCLUDE = 0x02,$/;"	e	enum:RULE_TYPE
+RULE_INCLUDE	ids/test/sk_ids.h	/^     RULE_INCLUDE = 0x02,$/;"	e	enum:RULE_TYPE
+RULE_TYPE	ids/sk_ids.h	/^typedef enum RULE_TYPE$/;"	g
+RULE_TYPE	ids/sk_ids.h	/^}RULE_TYPE;$/;"	t	typeref:enum:RULE_TYPE
+RULE_TYPE	ids/test/sk_ids.h	/^typedef enum RULE_TYPE$/;"	g
+RULE_TYPE	ids/test/sk_ids.h	/^}RULE_TYPE;$/;"	t	typeref:enum:RULE_TYPE
+RULE_VAR	ids/sk_ids.h	/^     RULE_VAR = 0x01,$/;"	e	enum:RULE_TYPE
+RULE_VAR	ids/test/sk_ids.h	/^     RULE_VAR = 0x01,$/;"	e	enum:RULE_TYPE
+RuleMask	ids/mwm.h	/^  BITOP * RuleMask;$/;"	m	struct:_mwm_struct
+S	ids/mwm.c	/^static unsigned char S[65536];$/;"	v	file:
+SIZE	ids/sk_mem_pool.c	260;"	d	file:
+SIZE	ids/test/sk_mem_pool.c	260;"	d	file:
+SK_ALIGNMENT	os/sk_palloc.h	7;"	d
+SK_BUSY	os/sk_define.h	45;"	d
+SK_CLEAR_EVENT	event/sk_event_epoll.h	17;"	d
+SK_CLOSE_EVENT	event/sk_event_epoll.h	12;"	d
+SK_ERR	os/sk_define.h	44;"	d
+SK_OK	os/sk_define.h	43;"	d
+SK_POOL_ALGINMENT	os/sk_palloc.h	5;"	d
+SK_POST_EVENT	event/sk_event_epoll.h	13;"	d
+SK_POST_EVENTS	event/sk_event_epoll.h	19;"	d
+SK_PROCESS_RESPAMWN	os/sk_define.h	59;"	d
+SK_READ_EVENT	event/sk_event_epoll.h	15;"	d
+SK_SOCKADDRLEN	event/sk_event_accept.h	6;"	d
+SK_TIMER_INFINITE	event/sk_event_timer.h	7;"	d
+SK_TIMER_LAZY_DELAY	event/sk_event_timer.h	8;"	d
+SK_UPDATE_TIME	event/sk_event_epoll.h	18;"	d
+SK_USE_CLEAR_EVENT	event/sk_event_epoll.h	10;"	d
+SK_USE_EPOLL_EVENT	event/sk_event_epoll.h	6;"	d
+SK_USE_GREEDY_EVENT	event/sk_event_epoll.h	9;"	d
+SK_USE_RESIG_EVENT	event/sk_event_epoll.h	7;"	d
+SK_USE_TIMER_EVENT	event/sk_event_epoll.h	8;"	d
+SK_WRITE_EVENT	event/sk_event_epoll.h	16;"	d
+STD_BUF	ids/sk_tools.c	16;"	d	file:
+STD_LEN	ids/sk_ids.h	19;"	d
+STD_LEN	ids/test/sk_ids.h	19;"	d
+SUCC	ids/sk_tools.h	25;"	d
+TEST_MEMPOOL_MAIN	ids/test/sk_mem_pool.c	16;"	d	file:
+UINT64	ids/mwm.h	53;"	d
+UINT64	ids/mwm.h	62;"	d
+_B	ids/sk_tools.h	22;"	d
+_BITOP	ids/bitop.h	/^typedef struct _BITOP {$/;"	s
+_BITOP_H	ids/bitop.h	32;"	d
+_C	ids/sk_tools.h	21;"	d
+_L	ids/sk_tools.h	17;"	d
+_MEMPOOL_H	ids/sk_mem_pool.h	8;"	d
+_MEMPOOL_H	ids/test/sk_mem_pool.h	8;"	d
+_MEMPOOL_LIST_H__	ids/sk_mempool_list.h	8;"	d
+_MEMPOOL_LIST_H__	ids/test/sk_mempool_list.h	8;"	d
+_N	ids/sk_tools.h	18;"	d
+_P	ids/sk_tools.h	20;"	d
+_S	ids/sk_tools.h	19;"	d
+_SF_SDLIST	ids/sk_sdlist.h	8;"	d
+_SF_SDLIST	ids/test/sk_sdlist.h	8;"	d
+_SK_ARRAy_H_INCLUDE_	os/sk_array.h	9;"	d
+_SK_CONFIG_H_INCLUDE_	os/sk_config.h	8;"	d
+_SK_CONNECTION_H_INCLUDE_	core/sk_connection.h	9;"	d
+_SK_CORE_H_INCLUDE_	core/sk_core.h	4;"	d
+_SK_CYCLE_H_INCLUDE_	core/sk_cycle.h	8;"	d
+_SK_DEFINE_H_INCLUDE_	os/sk_define.h	2;"	d
+_SK_EVENT_ACCEPT_H_INCLUDE_	event/sk_event_accept.h	3;"	d
+_SK_EVENT_EPOLL_H_INCLUDE_	event/sk_event_epoll.h	2;"	d
+_SK_EVENT_H_INCLUDE_	event/sk_event.h	8;"	d
+_SK_EVENT_POSTED_H_INCLUDE_	event/sk_event_posted.h	2;"	d
+_SK_EVENT_TIMER_H_INCLUDE_	event/sk_event_timer.h	2;"	d
+_SK_IDS_H_INCLUDE_	ids/sk_ids.h	2;"	d
+_SK_IDS_H_INCLUDE_	ids/test/sk_ids.h	2;"	d
+_SK_IDS_REQUEST_H_INCLUDE_	ids/sk_ids_request.h	2;"	d
+_SK_LOG_H_INCLUDE_	os/sk_log.h	2;"	d
+_SK_PALLOC_H_INCLUDE_	os/sk_palloc.h	2;"	d
+_SK_PROCESS_CYCLE_H_INCLUDE_	core/sk_process_cycle.h	2;"	d
+_SK_PROCESS_H_INCLUDE_	core/sk_process.h	2;"	d
+_SK_RBTREE_H_INCLUDE_	core/sk_rbtree.h	2;"	d
+_SK_SHMTX_H_INCLUDE_	core/sk_shmtx.h	2;"	d
+_SK_SOCKET_H_INCLUDE_	os/sk_socket.h	2;"	d
+_SK_TIMES_H_INCLUDE_	os/sk_times.h	9;"	d
+_U	ids/sk_tools.h	16;"	d
+_X	ids/sk_tools.h	23;"	d
+__DETECT_H__	ids/sk_detect.h	2;"	d
+__LOG_H__	ids/sk_ids_log.h	9;"	d
+__MWM_H__	ids/mwm.h	29;"	d
+__RULE_H__	ids/sk_rule.h	2;"	d
+__TOOLS_H__	ids/sk_tools.h	9;"	d
+_exit	os/sk_define.h	67;"	d
+_mem_bucket_t	ids/sk_mem_pool.h	/^typedef struct _mem_bucket_t$/;"	s
+_mem_bucket_t	ids/test/sk_mem_pool.h	/^typedef struct _mem_bucket_t$/;"	s
+_mempool_t	ids/sk_mem_pool.h	/^typedef struct _mempool_t$/;"	s
+_mempool_t	ids/test/sk_mem_pool.h	/^typedef struct _mempool_t$/;"	s
+_mwm_pattern_struct	ids/mwm.h	/^typedef struct _mwm_pattern_struct  {$/;"	s
+_mwm_struct	ids/mwm.h	/^typedef struct _mwm_struct {$/;"	s
+_sdlist_item_t	ids/sk_sdlist.h	/^typedef struct _sdlist_item_t {$/;"	s
+_sdlist_item_t	ids/test/sk_sdlist.h	/^typedef struct _sdlist_item_t {$/;"	s
+accept	event/sk_event.h	/^	unsigned			accept:1;$/;"	m	struct:sk_event_s
+active	event/sk_event.h	/^	unsigned			active:1;$/;"	m	struct:sk_event_s
+add_rule	ids/sk_detect.h	/^	int		 	(*add_rule)(void* engine, const rule_node_t* rule);$/;"	m	struct:sk_detect_engine_s
+addr	core/sk_shmtx.h	/^	u_char				*addr;$/;"	m	struct:__anon3
+addr_text	core/sk_connection.h	/^	sk_str_t			addr_text;$/;"	m	struct:sk_connection_s
+alloc	os/sk_palloc.h	/^	void					*alloc;$/;"	m	struct:sk_pool_large_s
+available	event/sk_event.h	/^	unsigned			available:1;$/;"	m	struct:sk_event_s
+b	ids/mwm.c	/^  unsigned char * b;$/;"	m	struct:__anon8	file:
+backlog	core/sk_connection.h	/^	sk_t				backlog;$/;"	m	struct:sk_listening_s
+bad	ids/sk_sdlist.c	/^void bad(void *d) {$/;"	f
+bad	ids/test/sk_sdlist.c	/^void bad(void *d) {$/;"	f
+bcShift	ids/mwm.h	/^ short          bcShift[256];$/;"	m	struct:__anon7
+bcompare	ids/mwm.c	/^static int bcompare( unsigned char *a, int alen, unsigned char * b, int blen )$/;"	f	file:
+blen	ids/mwm.c	/^  int blen;$/;"	m	struct:__anon8	file:
+boClearBit	ids/bitop.h	/^static INLINE void boClearBit(BITOP *BitOp, unsigned int uiPos)$/;"	f
+boClearByte	ids/bitop.h	/^static INLINE void boClearByte(BITOP *BitOp, unsigned int uiPos)$/;"	f
+boInitBITOP	ids/bitop.h	/^static INLINE int boInitBITOP(BITOP *BitOp, int iSize)$/;"	f
+boInitStaticBITOP	ids/bitop.h	/^static INLINE int boInitStaticBITOP(BITOP *BitOp,int iBytes,unsigned char *buf)$/;"	f
+boIsBitSet	ids/bitop.h	/^static INLINE int boIsBitSet(BITOP *BitOp, unsigned int uiPos)$/;"	f
+boResetBITOP	ids/bitop.h	/^static INLINE int boResetBITOP(BITOP *BitOp)$/;"	f
+boSetBit	ids/bitop.h	/^static INLINE int boSetBit(BITOP *BitOp, unsigned int uiPos)$/;"	f
+bucketpool	ids/sk_mem_pool.h	/^    mem_bucket_t *bucketpool; \/* memory buffer *\/$/;"	m	struct:_mempool_t
+bucketpool	ids/test/sk_mem_pool.h	/^    mem_bucket_t *bucketpool; \/* memory buffer *\/$/;"	m	struct:_mempool_t
+buf	os/sk_log.h	/^	u_char					*buf;$/;"	m	struct:sk_open_file_s
+buffered	core/sk_connection.h	/^	unsigned			buffered:8;$/;"	m	struct:sk_connection_s
+chain	os/sk_palloc.h	/^	sk_chain_t				*chain;$/;"	m	struct:sk_pool_s
+channel	core/sk_process.h	/^	int						channel[2];$/;"	m	struct:__anon5
+channel	event/sk_event.h	/^	unsigned			channel:1;$/;"	m	struct:sk_event_s
+cleanup	os/sk_palloc.h	/^	sk_pool_cleanup_t		*cleanup;$/;"	m	struct:sk_pool_s
+close	core/sk_connection.h	/^	unsigned			close:1;$/;"	m	struct:sk_connection_s
+closed	event/sk_event.h	/^	unsigned			closed:1;$/;"	m	struct:sk_event_s
+cnf_ctx	core/sk_cycle.h	/^	void					*cnf_ctx;$/;"	m	struct:sk_cycle_s
+color	core/sk_rbtree.h	/^		u_char					color;$/;"	m	struct:sk_rbtree_node_s
+complete	event/sk_event.h	/^	unsigned			complete:1;$/;"	m	struct:sk_event_s
+conf	ids/sk_ids.c	/^conf_t* conf = NULL;$/;"	v
+conf	ids/sk_mem_pool.c	/^conf_t* conf = NULL;	\/\/= {8080, 1024, 20, 10,  "aaa"};$/;"	v
+conf	ids/test/sk_mem_pool.c	/^conf_t* conf = NULL;	\/\/= {8080, 1024, 20, 10,  "aaa"};$/;"	v
+conf_t	ids/sk_ids.h	/^ }conf_t;$/;"	t	typeref:struct:conf_t
+conf_t	ids/sk_ids.h	/^typedef struct conf_t$/;"	s
+conf_t	ids/test/sk_ids.h	/^ }conf_t;$/;"	t	typeref:struct:conf_t
+conf_t	ids/test/sk_ids.h	/^typedef struct conf_t$/;"	s
+confirm_dir_exist	ids/sk_tools.c	/^int confirm_dir_exist(char* path)$/;"	f
+connection	core/sk_connection.h	/^	sk_connection_t	*connection;$/;"	m	struct:sk_listening_s
+connection_counter	event/sk_event.c	/^static  sk_atomic_t	connection_counter = 1;$/;"	v	file:
+connection_n	core/sk_cycle.h	/^	sk_uptr_t				connection_n;$/;"	m	struct:sk_cycle_s
+connections	core/sk_cycle.h	/^	sk_connection_t		*connections;$/;"	m	struct:sk_cycle_s
+content	ids/sk_rule.h	/^	char content[8192];		\/\/rule content$/;"	m	struct:rule_node_t
+content_len	ids/sk_rule.h	/^	int  content_len;		\/\/rule content length$/;"	m	struct:rule_node_t
+converthexbytes	ids/mwm.c	/^BINARY  * converthexbytes( unsigned char * s)$/;"	f
+count	ids/sk_ids_request.c	/^sk_uptr_t	count;$/;"	v
+create	ids/sk_detect.h	/^	void		*(*create)();$/;"	m	struct:sk_detect_engine_s
+current	os/sk_palloc.h	/^	sk_pool_t				*current;$/;"	m	struct:sk_pool_s
+d	os/sk_palloc.h	/^	sk_pool_data_t		d;$/;"	m	struct:sk_pool_s
+data	core/sk_connection.h	/^	void				*data;$/;"	m	struct:sk_connection_s
+data	core/sk_process.h	/^	void					*data;$/;"	m	struct:__anon5
+data	core/sk_rbtree.h	/^		u_char					data;$/;"	m	struct:sk_rbtree_node_s
+data	event/sk_event.h	/^	void				*data;$/;"	m	struct:sk_event_s
+data	ids/sk_mem_pool.h	/^    void *data;$/;"	m	struct:_mem_bucket_t
+data	ids/sk_sdlist.h	/^    void *data;$/;"	m	struct:_sdlist_item_t
+data	ids/test/sk_mem_pool.h	/^    void *data;$/;"	m	struct:_mem_bucket_t
+data	ids/test/sk_sdlist.h	/^    void *data;$/;"	m	struct:_sdlist_item_t
+data	os/sk_define.h	/^	u_char	   *data;$/;"	m	struct:__anon1
+data	os/sk_log.h	/^	void 						*data;$/;"	m	struct:sk_log_s
+data	os/sk_palloc.h	/^	void					*data;$/;"	m	struct:sk_pool_cleanup_s
+datapool	ids/sk_mem_pool.h	/^    void **datapool; \/* memory buffer for mem_bucket_t->data *\/$/;"	m	struct:_mempool_t
+datapool	ids/test/sk_mem_pool.h	/^    void **datapool; \/* memory buffer for mem_bucket_t->data *\/$/;"	m	struct:_mempool_t
+debug	ids/sk_detect.h	/^	int 					debug;$/;"	m	struct:sk_detect_s
+destroy	ids/sk_detect.h	/^	void 		(*destroy)(void* engine);$/;"	m	struct:sk_detect_engine_s
+destroy	ids/sk_sdlist.h	/^    void (*destroy)(void *data); \/* delete function called for each$/;"	m	struct:sf_sdlist_t
+destroy	ids/test/sk_sdlist.h	/^    void (*destroy)(void *data); \/* delete function called for each$/;"	m	struct:sf_sdlist_t
+detect_log	ids/sk_ids.h	/^     char detect_log[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+detect_log	ids/test/sk_ids.h	/^     char detect_log[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+detect_port	ids/sk_ids.h	/^   int detect_port;$/;"	m	struct:conf_t
+detect_port	ids/test/sk_ids.h	/^   int detect_port;$/;"	m	struct:conf_t
+dir_exist	ids/sk_tools.c	/^int dir_exist(char* path)$/;"	f
+disabled	event/sk_event.h	/^	unsigned			disabled:1;$/;"	m	struct:sk_event_s
+disp_conf	ids/sk_ids.c	/^void disp_conf()$/;"	f
+elts	os/sk_array.h	/^	void			*elts; \/\/元素首地址$/;"	m	struct:sk_array_s
+end	os/sk_palloc.h	/^	u_char					*end;	\/\/end   为内存池结束的地址$/;"	m	struct:__anon2
+engine	ids/sk_detect.h	/^	MWM_STRUCT* engine;$/;"	m	struct:sk_detect_engine_s
+engine	ids/sk_detect.h	/^	sk_detect_engine_t	engine[ENGINE_NUM];$/;"	m	struct:sk_detect_s
+engine_init	ids/sk_detect.c	/^static int engine_init(sk_detect_engine_t* engine, char* name)$/;"	f	file:
+ep	event/sk_event_epoll.c	/^static int 					ep = -1;$/;"	v	file:
+err_log	ids/sk_ids.h	/^    char err_log[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+err_log	ids/test/sk_ids.h	/^    char err_log[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+error	core/sk_connection.h	/^	unsigned			error:1;$/;"	m	struct:sk_connection_s
+event_list	event/sk_event_epoll.c	/^static struct epoll_event 	*event_list;$/;"	v	typeref:struct:epoll_event	file:
+exists	core/sk_shmtx.h	/^	sk_uptr_t			exists;$/;"	m	struct:__anon3
+failed	os/sk_palloc.h	/^	sk_uptr_t				failed;$/;"	m	struct:__anon2
+fd	core/sk_connection.h	/^	sk_t				fd;$/;"	m	struct:sk_connection_s
+fd	core/sk_connection.h	/^	sk_t				fd;$/;"	m	struct:sk_listening_s
+fd	os/sk_log.h	/^	sk_fd_t				fd;$/;"	m	struct:sk_open_file_s
+file	os/sk_log.h	/^	sk_open_file_t			*file;$/;"	m	struct:sk_log_s
+file_line	ids/sk_ids.c	/^int  file_line;	\/*当前读取的文件行*\/$/;"	v
+file_line	ids/sk_rule.h	/^	int file_line;			\/\/rule所在配置文件行号$/;"	m	struct:rule_node_t
+file_name	ids/sk_ids.c	/^char* file_name = NULL;	\/*当前读取的文件名*\/$/;"	v
+file_name	ids/sk_rule.h	/^	char file_name[512];	\/\/rule所在配置文件名$/;"	m	struct:rule_node_t
+files	core/sk_cycle.h	/^	sk_connection_t		**files;$/;"	m	struct:sk_cycle_s
+fpdetect_add_rule	ids/sk_detect.c	/^int fpdetect_add_rule(rule_node_t* rule_node)$/;"	f
+fpdetect_search_rule	ids/sk_detect.c	/^int fpdetect_search_rule(char* text, int len, char* sid)$/;"	f
+free	ids/sk_mem_pool.h	/^    POOL_COUNT free; \/*  free block count *\/$/;"	m	struct:_mempool_t
+free	ids/test/sk_mem_pool.h	/^    POOL_COUNT free; \/*  free block count *\/$/;"	m	struct:_mempool_t
+free_connection_n	core/sk_cycle.h	/^	sk_uptr_t				free_connection_n;$/;"	m	struct:sk_cycle_s
+free_connections	core/sk_cycle.h	/^	sk_connection_t		**free_connections;$/;"	m	struct:sk_cycle_s
+free_list	ids/sk_mem_pool.h	/^    sf_sdlist_t free_list;$/;"	m	struct:_mempool_t
+free_list	ids/test/sk_mem_pool.h	/^    sf_sdlist_t free_list;$/;"	m	struct:_mempool_t
+get_conf	ids/sk_ids.c	/^int get_conf(conf_t* p_conf)$/;"	f
+gethex	ids/mwm.c	/^int gethex( int c )$/;"	f
+handler	core/sk_connection.h	/^	sk_connection_handler_pt	 handler;$/;"	m	struct:sk_listening_s
+handler	event/sk_event.h	/^	sk_event_handler_pt handler;$/;"	m	struct:sk_event_s
+handler	os/sk_palloc.h	/^	sk_pool_cleanup_pt	handler;$/;"	m	struct:sk_pool_cleanup_s
+hbm_free	ids/mwm.c	/^static void hbm_free( HBM_STRUCT *p )$/;"	f	file:
+hbm_match	ids/mwm.c	/^static INLINE unsigned char * hbm_match(HBM_STRUCT * px, unsigned char * text, int n)$/;"	f	file:
+hbm_prep	ids/mwm.c	/^HBM_STRUCT * hbm_prep(unsigned char * pat, int m)$/;"	f
+hbm_prepx	ids/mwm.c	/^HBM_STRUCT * hbm_prepx(HBM_STRUCT *p, unsigned char * pat, int m)$/;"	f
+head	ids/sk_sdlist.h	/^    sdlist_item_t *head;$/;"	m	struct:sf_sdlist_t
+head	ids/test/sk_sdlist.h	/^    sdlist_item_t *head;$/;"	m	struct:sf_sdlist_t
+iPatCount	ids/mwm.c	/^static UINT64  iPatCount=0;$/;"	v	file:
+id	ids/sk_rule.h	/^	int id;					\/\/rule ID$/;"	m	struct:rule_node_t
+idle	core/sk_connection.h	/^	unsigned			idle:1;$/;"	m	struct:sk_connection_s
+ids_addr	ids/sk_ids.h	/^     char ids_addr[20];$/;"	m	struct:conf_t
+ids_addr	ids/test/sk_ids.h	/^     char ids_addr[20];$/;"	m	struct:conf_t
+ids_port	ids/sk_ids.h	/^    int ids_port;$/;"	m	struct:conf_t
+ids_port	ids/test/sk_ids.h	/^    int ids_port;$/;"	m	struct:conf_t
+index	event/sk_event.h	/^	sk_uptr_t			index;$/;"	m	struct:sk_event_s
+init_ctx	core/sk_core.h	/^sk_ctx_conf_t	*sk_ctx,init_ctx;$/;"	v
+init_xlatcase	ids/mwm.c	/^static void init_xlatcase()$/;"	f	file:
+insert	core/sk_rbtree.h	/^	sk_rbtree_insert_pt 		insert;$/;"	m	struct:sk_rbtree_s
+instance	event/sk_event.h	/^	unsigned			instance:1;$/;"	m	struct:sk_event_s
+key	core/sk_rbtree.h	/^		sk_rbtree_key_t		key;$/;"	m	struct:sk_rbtree_node_s
+key	ids/sk_mem_pool.h	/^    sdlist_item_t *key;$/;"	m	struct:_mem_bucket_t
+key	ids/test/sk_mem_pool.h	/^    sdlist_item_t *key;$/;"	m	struct:_mem_bucket_t
+large	os/sk_palloc.h	/^	sk_pool_large_t		*large;$/;"	m	struct:sk_pool_s
+last	os/sk_palloc.h	/^	u_char					*last;	\/\/last  为内存池开始分配的地址$/;"	m	struct:__anon2
+left	core/sk_rbtree.h	/^		sk_rbtree_node_t		*left;$/;"	m	struct:sk_rbtree_node_s
+len	ids/sk_mem_pool.h	/^	long len;$/;"	m	struct:_mem_bucket_t
+len	ids/test/sk_mem_pool.h	/^	long len;$/;"	m	struct:_mem_bucket_t
+len	os/sk_define.h	/^	size_t		len;$/;"	m	struct:__anon1
+level	ids/sk_rule.h	/^	int level;				\/\/级别$/;"	m	struct:rule_node_t
+listen	core/sk_connection.h	/^	unsigned			listen:1;$/;"	m	struct:sk_listening_s
+listening	core/sk_connection.h	/^	sk_listening_t	*listening;$/;"	m	struct:sk_connection_s
+listening	core/sk_cycle.h	/^	sk_array_t				listening;$/;"	m	struct:sk_cycle_s
+listpool	ids/sk_mem_pool.h	/^    sdlist_item_t *listpool; \/* list of things to use for memory bufs *\/$/;"	m	struct:_mempool_t
+listpool	ids/test/sk_mem_pool.h	/^    sdlist_item_t *listpool; \/* list of things to use for memory bufs *\/$/;"	m	struct:_mempool_t
+lock	core/sk_shmtx.h	/^	sk_atomic_t		*lock;$/;"	m	struct:__anon4
+lock_file	core/sk_cycle.h	/^	sk_str_t				lock_file;$/;"	m	struct:sk_cycle_s
+log	core/sk_connection.h	/^	sk_log_t			*log;$/;"	m	struct:sk_connection_s
+log	core/sk_connection.h	/^	sk_log_t			*log;$/;"	m	struct:sk_listening_s
+log	core/sk_core.h	/^	sk_log_t			*log;$/;"	m	struct:__anon6
+log	core/sk_cycle.h	/^	sk_log_t				*log;$/;"	m	struct:sk_cycle_s
+log	core/sk_shmtx.h	/^	sk_log_t			*log;$/;"	m	struct:__anon3
+log	event/sk_event.h	/^	sk_log_t			*log;$/;"	m	struct:sk_event_s
+log	os/sk_palloc.h	/^	sk_log_t				*log;$/;"	m	struct:sk_pool_s
+log_dir	ids/sk_ids.h	/^    char log_dir[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+log_dir	ids/test/sk_ids.h	/^    char log_dir[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+log_err	core/sk_connection.h	/^	unsigned			log_err:3;$/;"	m	struct:sk_connection_s
+m_split	ids/sk_tools.c	/^char **m_split(char *str, char *sep, int max_strs, int *toks, char meta)$/;"	f
+m_split_free	ids/sk_tools.c	/^void m_split_free(char ***pbuf, int num_toks)$/;"	f
+main	ids/mwm.c	/^int CDECL main ( int argc, char ** argv )$/;"	f
+main	ids/sk_mem_pool.c	/^int main(void)$/;"	f
+main	ids/sk_sdlist.c	/^int main(void) {$/;"	f
+main	ids/test/sk_mem_pool.c	/^int main(void)$/;"	f
+main	ids/test/sk_sdlist.c	/^int main(void) {$/;"	f
+main	silk.c	/^sk_t main(sk_t argc,sk_t *argv[])$/;"	f
+match	ids/sk_detect.h	/^	int 		(*match)(void* id, int index, void*data);$/;"	m	struct:sk_detect_engine_s
+max	os/sk_palloc.h	/^	size_t					max;$/;"	m	struct:sk_pool_s
+max_listen_num	ids/sk_ids.h	/^     int max_listen_num;$/;"	m	struct:conf_t
+max_listen_num	ids/test/sk_ids.h	/^     int max_listen_num;$/;"	m	struct:conf_t
+mbmPrepBadWordTable	ids/mwm.c	/^static void mbmPrepBadWordTable(MWM_STRUCT * ps)$/;"	f	file:
+mem_bucket_t	ids/sk_mem_pool.h	/^} mem_bucket_t;$/;"	t	typeref:struct:_mem_bucket_t
+mem_bucket_t	ids/test/sk_mem_pool.h	/^} mem_bucket_t;$/;"	t	typeref:struct:_mem_bucket_t
+mempool	ids/sk_mempool_list.h	/^	mempool_t mempool;$/;"	m	struct:mempool_list_t
+mempool	ids/test/sk_mempool_list.h	/^	mempool_t mempool;$/;"	m	struct:mempool_list_t
+mempool_alloc	ids/sk_mem_pool.c	/^mem_bucket_t *mempool_alloc(mempool_t *mempool)$/;"	f
+mempool_alloc	ids/test/sk_mem_pool.c	/^mem_bucket_t *mempool_alloc(mempool_t *mempool)$/;"	f
+mempool_destroy	ids/sk_mem_pool.c	/^int mempool_destroy(mempool_t *mempool)$/;"	f
+mempool_destroy	ids/test/sk_mem_pool.c	/^int mempool_destroy(mempool_t *mempool)$/;"	f
+mempool_free	ids/sk_mem_pool.c	/^void mempool_free(mempool_t *mempool, mem_bucket_t *obj)$/;"	f
+mempool_free	ids/test/sk_mem_pool.c	/^void mempool_free(mempool_t *mempool, mem_bucket_t *obj)$/;"	f
+mempool_init	ids/sk_mem_pool.c	/^int mempool_init(mempool_t *mempool, POOL_COUNT num_objects, size_t obj_size)$/;"	f
+mempool_init	ids/test/sk_mem_pool.c	/^int mempool_init(mempool_t *mempool, POOL_COUNT num_objects, size_t obj_size)$/;"	f
+mempool_list_add	ids/sk_mempool_list.c	/^static int mempool_list_add()$/;"	f	file:
+mempool_list_add	ids/test/sk_mempool_list.c	/^static int mempool_list_add()$/;"	f	file:
+mempool_list_alloc	ids/sk_mempool_list.c	/^static mem_bucket_t* mempool_list_alloc()$/;"	f	file:
+mempool_list_alloc	ids/test/sk_mempool_list.c	/^static mem_bucket_t* mempool_list_alloc()$/;"	f	file:
+mempool_list_disp	ids/sk_mempool_list.c	/^int mempool_list_disp()$/;"	f
+mempool_list_disp	ids/test/sk_mempool_list.c	/^int mempool_list_disp()$/;"	f
+mempool_list_init	ids/sk_mempool_list.c	/^int mempool_list_init()$/;"	f
+mempool_list_init	ids/test/sk_mempool_list.c	/^int mempool_list_init()$/;"	f
+mempool_list_pull	ids/sk_mempool_list.c	/^int mempool_list_pull(void* data, int* len)$/;"	f
+mempool_list_pull	ids/test/sk_mempool_list.c	/^int mempool_list_pull(void* data, int* len)$/;"	f
+mempool_list_push	ids/sk_mempool_list.c	/^int mempool_list_push(void* data, int len)$/;"	f
+mempool_list_push	ids/test/sk_mempool_list.c	/^int mempool_list_push(void* data, int len)$/;"	f
+mempool_list_t	ids/sk_mempool_list.h	/^typedef struct mempool_list_t$/;"	s
+mempool_list_t	ids/sk_mempool_list.h	/^}mempool_list_t;$/;"	t	typeref:struct:mempool_list_t
+mempool_list_t	ids/test/sk_mempool_list.h	/^typedef struct mempool_list_t$/;"	s
+mempool_list_t	ids/test/sk_mempool_list.h	/^}mempool_list_t;$/;"	t	typeref:struct:mempool_list_t
+mempool_num	ids/sk_ids.h	/^     int mempool_num;$/;"	m	struct:conf_t
+mempool_num	ids/test/sk_ids.h	/^     int mempool_num;$/;"	m	struct:conf_t
+mempool_size	ids/sk_ids.h	/^   int mempool_size;$/;"	m	struct:conf_t
+mempool_size	ids/test/sk_ids.h	/^   int mempool_size;$/;"	m	struct:conf_t
+mempool_t	ids/sk_mem_pool.h	/^} mempool_t;$/;"	t	typeref:struct:_mempool_t
+mempool_t	ids/test/sk_mem_pool.h	/^} mempool_t;$/;"	t	typeref:struct:_mempool_t
+mempool_test	ids/sk_mem_pool.c	/^int mempool_test()$/;"	f
+mempool_test	ids/test/sk_mem_pool.c	/^int mempool_test()$/;"	f
+mp_list_cur	ids/sk_mempool_list.c	/^static mempool_list_t* mp_list_cur = NULL;$/;"	v	file:
+mp_list_cur	ids/test/sk_mempool_list.c	/^static mempool_list_t* mp_list_cur = NULL;$/;"	v	file:
+mp_list_head	ids/sk_mempool_list.c	/^static mempool_list_t* mp_list_head = NULL;$/;"	v	file:
+mp_list_head	ids/test/sk_mempool_list.c	/^static mempool_list_t* mp_list_head = NULL;$/;"	v	file:
+msAvg	ids/mwm.h	/^  int   msAvg;$/;"	m	struct:_mwm_struct
+msDetails	ids/mwm.h	/^  int msDetails;$/;"	m	struct:_mwm_struct
+msHash	ids/mwm.h	/^  HASH_TYPE *msHash;           \/\/ 2+ character Pattern Big Hash Table$/;"	m	struct:_mwm_struct
+msHash1	ids/mwm.h	/^  HASH_TYPE  msHash1[256];     \/\/ One character Pattern Hash Table$/;"	m	struct:_mwm_struct
+msLargeShifts	ids/mwm.h	/^  int msLargeShifts;$/;"	m	struct:_mwm_struct
+msLargest	ids/mwm.h	/^  int   msLargest;$/;"	m	struct:_mwm_struct
+msLengths	ids/mwm.h	/^  int * msLengths;$/;"	m	struct:_mwm_struct
+msMaxPatterns	ids/mwm.h	/^  int                 msMaxPatterns;$/;"	m	struct:_mwm_struct
+msMethod	ids/mwm.h	/^  int msMethod;  \/* MTH_BM, MTH_MWM *\/$/;"	m	struct:_mwm_struct
+msNoCase	ids/mwm.h	/^  int     msNoCase;$/;"	m	struct:_mwm_struct
+msNumArray	ids/mwm.h	/^  unsigned short *msNumArray;$/;"	m	struct:_mwm_struct
+msNumArray1	ids/mwm.h	/^  unsigned short  msNumArray1[256];$/;"	m	struct:_mwm_struct
+msNumHashEntries	ids/mwm.h	/^  unsigned   msNumHashEntries;$/;"	m	struct:_mwm_struct
+msNumPatterns	ids/mwm.h	/^  int        msNumPatterns;$/;"	m	struct:_mwm_struct
+msPatArray	ids/mwm.h	/^  MWM_PATTERN_STRUCT *msPatArray;$/;"	m	struct:_mwm_struct
+msShift	ids/mwm.h	/^  short    msShift[256];$/;"	m	struct:_mwm_struct
+msShift2	ids/mwm.h	/^  unsigned char* msShift2;$/;"	m	struct:_mwm_struct
+msShiftLen	ids/mwm.h	/^  unsigned msShiftLen;$/;"	m	struct:_mwm_struct
+msSmallest	ids/mwm.h	/^  int   msSmallest;$/;"	m	struct:_mwm_struct
+msTotal	ids/mwm.h	/^  int   msTotal;$/;"	m	struct:_mwm_struct
+msg	ids/sk_rule.h	/^	char msg[256];			\/\/message$/;"	m	struct:rule_node_t
+mwmAddPattern	ids/mwm.c	/^int mwmAddPattern( void * pv, unsigned char * P, int m, unsigned id )$/;"	f
+mwmAddPatternEx	ids/mwm.c	/^int mwmAddPatternEx( void *pv, unsigned char * P, int m,$/;"	f
+mwmAddPatternExOrig	ids/mwm.c	/^int mwmAddPatternExOrig( MWM_STRUCT *ps, unsigned char * P, int m,$/;"	f
+mwmAddRule	ids/mwm.c	/^int mwmAddRule(void* engine, const rule_node_t* rule)$/;"	f
+mwmAnalyzePattens	ids/mwm.c	/^static void mwmAnalyzePattens( MWM_STRUCT * ps )$/;"	f	file:
+mwmFeatures	ids/mwm.c	/^void mwmFeatures(void)$/;"	f
+mwmFree	ids/mwm.c	/^void mwmFree( void * pv )$/;"	f
+mwmGetNumPatterns	ids/mwm.c	/^int mwmGetNumPatterns( void  * pv )$/;"	f
+mwmGetPatByteCount	ids/mwm.c	/^UINT64 mwmGetPatByteCount()$/;"	f
+mwmGroupDetails	ids/mwm.c	/^void mwmGroupDetails( void * pv )$/;"	f
+mwmGroupMatch2	ids/mwm.c	/^int mwmGroupMatch2( MWM_STRUCT * ps,$/;"	f	file:
+mwmLargeShifts	ids/mwm.c	/^void mwmLargeShifts( void *  pv, int flag)$/;"	f
+mwmMatch	ids/mwm.c	/^int mwmMatch (  void* id, int index, void * data )$/;"	f
+mwmNew	ids/mwm.c	/^void * mwmNew()$/;"	f
+mwmPrepBadCharTable	ids/mwm.c	/^static void mwmPrepBadCharTable(MWM_STRUCT * ps)$/;"	f	file:
+mwmPrepHashedPatternGroups	ids/mwm.c	/^static void mwmPrepHashedPatternGroups(MWM_STRUCT * ps)$/;"	f	file:
+mwmPrepPatterns	ids/mwm.c	/^int mwmPrepPatterns( void * pv )$/;"	f
+mwmResetByteCount	ids/mwm.c	/^void mwmResetByteCount()$/;"	f
+mwmSearch	ids/mwm.c	/^int mwmSearch( void * pv,$/;"	f
+mwmSearchExBC	ids/mwm.c	/^int mwmSearchExBC( MWM_STRUCT *ps,$/;"	f	file:
+mwmSearchExBW	ids/mwm.c	/^int mwmSearchExBW( MWM_STRUCT *ps,$/;"	f	file:
+mwmSearchExNoBC	ids/mwm.c	/^int mwmSearchExNoBC( MWM_STRUCT *ps,$/;"	f	file:
+mwmSetRuleMask	ids/mwm.c	/^void mwmSetRuleMask( void  * pv, BITOP * rm )$/;"	f
+mwmShowStats	ids/mwm.c	/^void mwmShowStats( void * pv )$/;"	f
+nalloc	os/sk_array.h	/^	sk_uptr_t		nalloc;\/\/数组容量$/;"	m	struct:sk_array_s
+name	core/sk_process.h	/^	void					*name;$/;"	m	struct:__anon5
+name	core/sk_shmtx.h	/^	sk_str_t			name;$/;"	m	struct:__anon3
+name	ids/sk_detect.h	/^	char name[100];$/;"	m	struct:sk_detect_engine_s
+name	os/sk_log.h	/^	sk_str_t				name;$/;"	m	struct:sk_open_file_s
+nelts	os/sk_array.h	/^	sk_uptr_t		nelts; \/\/已分配的个数$/;"	m	struct:sk_array_s
+nevents	event/sk_event_epoll.c	/^static sk_uptr_t				nevents;$/;"	v	file:
+next	core/sk_connection.h	/^	sk_queue_t			*next;$/;"	m	struct:sk_queue_s
+next	event/sk_event.h	/^	sk_event_t			*next;$/;"	m	struct:sk_event_s
+next	ids/mwm.h	/^  struct _mwm_pattern_struct * next;$/;"	m	struct:_mwm_pattern_struct	typeref:struct:_mwm_pattern_struct::_mwm_pattern_struct
+next	ids/sk_mempool_list.h	/^	struct mempool_list_t* next;$/;"	m	struct:mempool_list_t	typeref:struct:mempool_list_t::mempool_list_t
+next	ids/sk_sdlist.h	/^    struct _sdlist_item_t *next;$/;"	m	struct:_sdlist_item_t	typeref:struct:_sdlist_item_t::_sdlist_item_t
+next	ids/test/sk_mempool_list.h	/^	struct mempool_list_t* next;$/;"	m	struct:mempool_list_t	typeref:struct:mempool_list_t::mempool_list_t
+next	ids/test/sk_sdlist.h	/^    struct _sdlist_item_t *next;$/;"	m	struct:_sdlist_item_t	typeref:struct:_sdlist_item_t::_sdlist_item_t
+next	os/sk_palloc.h	/^	sk_pool_cleanup_t		*next;$/;"	m	struct:sk_pool_cleanup_s
+next	os/sk_palloc.h	/^	sk_pool_large_t		*next;$/;"	m	struct:sk_pool_large_s
+next	os/sk_palloc.h	/^	sk_pool_t				*next;$/;"	m	struct:__anon2
+nocase	ids/sk_rule.h	/^	int nocase;				\/\/区分大小写$/;"	m	struct:rule_node_t
+obj_size	ids/sk_mem_pool.h	/^    size_t obj_size;$/;"	m	struct:_mempool_t
+obj_size	ids/test/sk_mem_pool.h	/^    size_t obj_size;$/;"	m	struct:_mempool_t
+old_cycle	core/sk_cycle.h	/^	sk_cycle_t				*old_cycle;$/;"	m	struct:sk_cycle_s
+parent	core/sk_rbtree.h	/^		sk_rbtree_node_t		*parent;$/;"	m	struct:sk_rbtree_node_s
+parse_key_value_pair	ids/sk_rule.c	/^static int parse_key_value_pair(char* pair, char* key, char* value)$/;"	f	file:
+parse_pattern	ids/sk_rule.c	/^static int parse_pattern(char* rule, char* pattern, int* len)$/;"	f	file:
+parse_rule_content	ids/sk_rule.c	/^int parse_rule_content(char* rule)$/;"	f
+patArray	ids/mwm.c	/^char * patArray[10000];$/;"	v
+pid	core/sk_process.h	/^	sk_pid_t				pid;$/;"	m	struct:__anon5
+plist	ids/mwm.h	/^  MWM_PATTERN_STRUCT * plist;$/;"	m	struct:_mwm_struct
+pool	core/sk_connection.h	/^	sk_pool_t			*pool;$/;"	m	struct:sk_connection_s
+pool	core/sk_core.h	/^	sk_pool_t			*pool;$/;"	m	struct:__anon6
+pool	core/sk_cycle.h	/^	sk_pool_t				*pool;$/;"	m	struct:sk_cycle_s
+pool	os/sk_array.h	/^	sk_pool_t		*pool; \/\/在pool所在内存池地址$/;"	m	struct:sk_array_s
+pool_size	core/sk_connection.h	/^	size_t				pool_size;$/;"	m	struct:sk_listening_s
+post_accept_timeout	core/sk_connection.h	/^	sk_msec_t			post_accept_timeout;$/;"	m	struct:sk_listening_s
+prefix	core/sk_cycle.h	/^	sk_str_t				prefix;$/;"	m	struct:sk_cycle_s
+prep_rule	ids/sk_detect.h	/^	int 		(*prep_rule)(void* engine);$/;"	m	struct:sk_detect_engine_s
+prev	core/sk_connection.h	/^	sk_listening_t	*prev;$/;"	m	struct:sk_listening_s
+prev	core/sk_connection.h	/^	sk_queue_t			*prev;$/;"	m	struct:sk_queue_s
+prev	event/sk_event.h	/^	sk_event_t			**prev;$/;"	m	struct:sk_event_s
+prev	ids/sk_sdlist.h	/^    struct _sdlist_item_t *prev;$/;"	m	struct:_sdlist_item_t	typeref:struct:_sdlist_item_t::_sdlist_item_t
+prev	ids/test/sk_sdlist.h	/^    struct _sdlist_item_t *prev;$/;"	m	struct:_sdlist_item_t	typeref:struct:_sdlist_item_t::_sdlist_item_t
+print_sdlist	ids/sk_sdlist.c	/^void print_sdlist(sf_sdlist_t *a)$/;"	f
+print_sdlist	ids/test/sk_sdlist.c	/^void print_sdlist(sf_sdlist_t *a)$/;"	f
+proc	core/sk_process.h	/^	sk_spawn_proc_pt		proc;$/;"	m	struct:__anon5
+psBmh	ids/mwm.h	/^  HBM_STRUCT     * psBmh;$/;"	m	struct:_mwm_pattern_struct
+psDepth	ids/mwm.h	/^  unsigned       psDepth;   \/\/ number of bytes after offset to search$/;"	m	struct:_mwm_pattern_struct
+psID	ids/mwm.h	/^  void          *psID;    \/\/  OTNX$/;"	m	struct:_mwm_pattern_struct
+psID2	ids/mwm.h	/^  unsigned       psID2;    \/\/ PatMatchData$/;"	m	struct:_mwm_pattern_struct
+psIID	ids/mwm.h	/^  int            psIID;    \/\/internal ID, used by the pattern matcher$/;"	m	struct:_mwm_pattern_struct
+psLen	ids/mwm.h	/^  unsigned       psLen;   \/\/ length of pattern in bytes$/;"	m	struct:_mwm_pattern_struct
+psNoCase	ids/mwm.h	/^  unsigned       psNoCase;\/\/ Pattern match is case insensitive if true$/;"	m	struct:_mwm_pattern_struct
+psOffset	ids/mwm.h	/^  int            psOffset;  \/\/ start search this deep$/;"	m	struct:_mwm_pattern_struct
+psPat	ids/mwm.h	/^  unsigned char *psPat;   \/\/ pattern array, no case$/;"	m	struct:_mwm_pattern_struct
+psPatCase	ids/mwm.h	/^  unsigned char *psPatCase;   \/\/ pattern array, case(exact)$/;"	m	struct:_mwm_pattern_struct
+pucBitBuffer	ids/bitop.h	/^    unsigned char *pucBitBuffer;$/;"	m	struct:_BITOP
+queue	core/sk_connection.h	/^	sk_queue_t			queue;$/;"	m	struct:sk_connection_s
+randpat	ids/mwm.c	/^int randpat( unsigned char * s, int imin )$/;"	f
+rcvbuf	core/sk_connection.h	/^	sk_t				rcvbuf;$/;"	m	struct:sk_listening_s
+read	core/sk_connection.h	/^	sk_event_t			*read;$/;"	m	struct:sk_connection_s
+read_events	core/sk_cycle.h	/^	sk_event_t				*read_events;$/;"	m	struct:sk_cycle_s
+ready	event/sk_event.h	/^	unsigned			ready:1;$/;"	m	struct:sk_event_s
+recv	core/sk_connection.h	/^	sk_recv_pt			recv;$/;"	m	struct:sk_connection_s
+recv_chain	core/sk_connection.h	/^	sk_recv_chain_pt	recv_chain;$/;"	m	struct:sk_connection_s
+request	core/sk_connection.h	/^	sk_uptr_t			request;$/;"	m	struct:sk_connection_s
+respawn	core/sk_process.h	/^	unsigned				respawn;$/;"	m	struct:__anon5
+reuseable	core/sk_connection.h	/^	unsigned			reuseable:1;$/;"	m	struct:sk_connection_s
+right	core/sk_rbtree.h	/^		sk_rbtree_node_t		*right;$/;"	m	struct:sk_rbtree_node_s
+root	core/sk_rbtree.h	/^	sk_rbtree_node_t			*root;$/;"	m	struct:sk_rbtree_s
+rule	ids/mwm.h	/^  rule_node_t*  rule;$/;"	m	struct:_mwm_pattern_struct
+rule_id	ids/sk_rule.c	/^static int rule_id = 1;$/;"	v	file:
+rule_level	ids/sk_rule.c	/^static int rule_level(char* level)$/;"	f	file:
+rule_node_t	ids/sk_rule.h	/^typedef struct rule_node_t$/;"	s
+rule_node_t	ids/sk_rule.h	/^}rule_node_t;$/;"	t	typeref:struct:rule_node_t
+rule_type	ids/sk_ids.c	/^static int rule_type(char* type)$/;"	f	file:
+rules_file_dir	ids/sk_ids.h	/^    char rules_file_dir[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+rules_file_dir	ids/test/sk_ids.h	/^    char rules_file_dir[DEFAULT_BUF_LEN];$/;"	m	struct:conf_t
+s16_t	os/sk_define.h	/^typedef int16_t	s16_t;$/;"	t
+s32_t	os/sk_define.h	/^typedef int32_t	s32_t;$/;"	t
+s64_t	os/sk_define.h	/^typedef int64_t	s64_t;$/;"	t
+s8_t	os/sk_define.h	/^typedef int8_t 	s8_t;$/;"	t
+save_detect_log	ids/sk_ids_log.c	/^int save_detect_log(rule_node_t* rule)$/;"	f
+save_err_log	ids/sk_ids_log.c	/^int save_err_log(char* format, ...)$/;"	f
+save_msg_log	ids/sk_ids_log.c	/^int save_msg_log(char* format, ...)$/;"	f
+sdlist_item_t	ids/sk_sdlist.h	/^} sdlist_item_t;$/;"	t	typeref:struct:_sdlist_item_t
+sdlist_item_t	ids/test/sk_sdlist.h	/^} sdlist_item_t;$/;"	t	typeref:struct:_sdlist_item_t
+search	ids/mwm.h	/^  int (*search)( struct _mwm_struct * ps,$/;"	m	struct:_mwm_struct
+search	ids/sk_detect.h	/^	int 		(*search)(void* engine, unsigned char* text, int text_len,$/;"	m	struct:sk_detect_engine_s
+send	core/sk_connection.h	/^	sk_send_pt			send;$/;"	m	struct:sk_connection_s
+send_chain	core/sk_connection.h	/^	sk_send_chain_pt	send_chain;$/;"	m	struct:sk_connection_s
+sendfile	core/sk_connection.h	/^	unsigned			sendfile:1;$/;"	m	struct:sk_connection_s
+sentinel	core/sk_rbtree.h	/^	sk_rbtree_node_t			*sentinel;$/;"	m	struct:sk_rbtree_s
+servers	core/sk_connection.h	/^	void				*servers;$/;"	m	struct:sk_listening_s
+set_default_conf	ids/sk_ids.c	/^static void set_default_conf()$/;"	f	file:
+sf_sdlist_append	ids/sk_sdlist.c	/^int sf_sdlist_append(sf_sdlist_t *list, void *data, sdlist_item_t *container) {$/;"	f
+sf_sdlist_append	ids/test/sk_sdlist.c	/^int sf_sdlist_append(sf_sdlist_t *list, void *data, sdlist_item_t *container) {$/;"	f
+sf_sdlist_delete	ids/sk_sdlist.c	/^int sf_sdlist_delete(sf_sdlist_t *list)$/;"	f
+sf_sdlist_delete	ids/test/sk_sdlist.c	/^int sf_sdlist_delete(sf_sdlist_t *list)$/;"	f
+sf_sdlist_free	ids/sk_sdlist.c	/^void sf_sdlist_free(void* p)$/;"	f
+sf_sdlist_free	ids/test/sk_sdlist.c	/^void sf_sdlist_free(void* p)$/;"	f
+sf_sdlist_init	ids/sk_sdlist.c	/^int sf_sdlist_init(sf_sdlist_t *list, void (*destroy)(void *data))$/;"	f
+sf_sdlist_init	ids/test/sk_sdlist.c	/^int sf_sdlist_init(sf_sdlist_t *list, void (*destroy)(void *data))$/;"	f
+sf_sdlist_insert_next	ids/sk_sdlist.c	/^int sf_sdlist_insert_next(sf_sdlist_t *list, sdlist_item_t *item, void *data,$/;"	f
+sf_sdlist_insert_next	ids/test/sk_sdlist.c	/^int sf_sdlist_insert_next(sf_sdlist_t *list, sdlist_item_t *item, void *data,$/;"	f
+sf_sdlist_remove	ids/sk_sdlist.c	/^int sf_sdlist_remove(sf_sdlist_t *list, sdlist_item_t *item)$/;"	f
+sf_sdlist_remove	ids/test/sk_sdlist.c	/^int sf_sdlist_remove(sf_sdlist_t *list, sdlist_item_t *item)$/;"	f
+sf_sdlist_remove_next	ids/sk_sdlist.c	/^int sf_sdlist_remove_next(sf_sdlist_t *list, sdlist_item_t *item) {$/;"	f
+sf_sdlist_remove_next	ids/test/sk_sdlist.c	/^int sf_sdlist_remove_next(sf_sdlist_t *list, sdlist_item_t *item) {$/;"	f
+sf_sdlist_t	ids/sk_sdlist.h	/^typedef struct sf_sdlist_t {$/;"	s
+sf_sdlist_t	ids/sk_sdlist.h	/^} sf_sdlist_t;$/;"	t	typeref:struct:sf_sdlist_t
+sf_sdlist_t	ids/test/sk_sdlist.h	/^typedef struct sf_sdlist_t {$/;"	s
+sf_sdlist_t	ids/test/sk_sdlist.h	/^} sf_sdlist_t;$/;"	t	typeref:struct:sf_sdlist_t
+show_bytes	ids/mwm.c	/^static void show_bytes(unsigned n, unsigned char *p)$/;"	f	file:
+size	core/sk_shmtx.h	/^	size_t				size;$/;"	m	struct:__anon3
+size	ids/sk_sdlist.h	/^    int size;$/;"	m	struct:sf_sdlist_t
+size	ids/test/sk_sdlist.h	/^    int size;$/;"	m	struct:sf_sdlist_t
+size	os/sk_array.h	/^	size_t			size;  \/\/每个元素的大小$/;"	m	struct:sk_array_s
+sk_accept_disabled	event/sk_event.c	/^sk_ptr_t				sk_accept_disabled;$/;"	v
+sk_accept_events	event/sk_event.c	/^sk_uptr_t				sk_accept_events;$/;"	v
+sk_accept_mutex	event/sk_event.c	/^sk_shmtx_t				sk_accept_mutex;$/;"	v
+sk_accept_mutex_delay	event/sk_event.c	/^sk_msec_t				sk_accept_mutex_delay;$/;"	v
+sk_accept_mutex_held	event/sk_event.c	/^sk_uptr_t				sk_accept_mutex_held;$/;"	v
+sk_accept_mutex_ptr	event/sk_event.c	/^sk_atomic_t			*sk_accept_mutex_ptr;$/;"	v
+sk_align_ptr	os/sk_define.h	70;"	d
+sk_array_push	os/sk_array.c	/^sk_array_push(sk_array_t *a)$/;"	f
+sk_array_s	os/sk_array.h	/^struct sk_array_s{$/;"	s
+sk_array_t	core/sk_core.h	/^typedef struct sk_array_s			sk_array_t;$/;"	t	typeref:struct:sk_array_s
+sk_atomic_cmp_set	core/sk_shmtx.h	24;"	d
+sk_atomic_fentch_add	core/sk_shmtx.h	27;"	d
+sk_atomic_int_t	core/sk_shmtx.h	/^typedef long				sk_atomic_int_t;$/;"	t
+sk_atomic_t	core/sk_shmtx.h	/^typedef volatile sk_atomic_uint_t		sk_atomic_t;$/;"	t
+sk_atomic_uint_t	core/sk_shmtx.h	/^typedef unsigned long	sk_atomic_uint_t;$/;"	t
+sk_chain_t	core/sk_core.h	/^typedef struct sk_chain_s			sk_chain_t;$/;"	t	typeref:struct:sk_chain_s
+sk_close_connection	core/sk_connection.c	/^sk_close_connection(sk_connection_t *c)$/;"	f
+sk_connection_counter	event/sk_event.c	/^sk_atomic_t			*sk_connection_counter = &connection_counter;$/;"	v
+sk_connection_handler_pt	core/sk_connection.h	/^typedef void(*sk_connection_handler_pt)(sk_connection_t *c);$/;"	t
+sk_connection_s	core/sk_connection.h	/^struct sk_connection_s{$/;"	s
+sk_connection_t	core/sk_core.h	/^typedef struct sk_connection_s		sk_connection_t;$/;"	t	typeref:struct:sk_connection_s
+sk_cpu_pause	core/sk_shmtx.h	34;"	d
+sk_cpu_pause	core/sk_shmtx.h	36;"	d
+sk_cpymem	os/sk_define.h	61;"	d
+sk_create_pool	os/sk_palloc.c	/^sk_create_pool(size_t size,sk_log_t *log)$/;"	f
+sk_ctx	core/sk_core.h	/^sk_ctx_conf_t	*sk_ctx,init_ctx;$/;"	v
+sk_ctx_conf_t	core/sk_core.h	/^}sk_ctx_conf_t;$/;"	t	typeref:struct:__anon6
+sk_current_msec	event/sk_event.c	/^volatile	sk_msec_t	sk_current_msec;$/;"	v
+sk_cycle	core/sk_cycle.c	/^volatile sk_cycle_t	*sk_cycle;$/;"	v
+sk_cycle_s	core/sk_cycle.h	/^struct sk_cycle_s{$/;"	s
+sk_cycle_t	core/sk_core.h	/^typedef struct sk_cycle_s			sk_cycle_t;$/;"	t	typeref:struct:sk_cycle_s
+sk_delete_posted_event	event/sk_event_posted.h	20;"	d
+sk_destroy_pool	os/sk_palloc.c	/^sk_destroy_pool(sk_pool_t *pool)$/;"	f
+sk_detect_create	ids/sk_detect.c	/^int sk_detect_create()$/;"	f
+sk_detect_engine_s	ids/sk_detect.h	/^struct sk_detect_engine_s{$/;"	s
+sk_detect_engine_t	ids/sk_detect.h	/^typedef struct sk_detect_engine_s	sk_detect_engine_t;$/;"	t	typeref:struct:sk_detect_engine_s
+sk_detect_pre_rule	ids/sk_detect.c	/^int sk_detect_pre_rule(char* text, int len)$/;"	f
+sk_detect_process	core/sk_process.c	/^sk_detect_process(sk_cycle_t *cycle,sk_spawn_proc_pt proc,void * data, char *name,sk_ptr_t respawn)$/;"	f
+sk_detect_s	ids/sk_detect.h	/^struct sk_detect_s$/;"	s
+sk_detect_t	ids/sk_detect.h	/^typedef struct sk_detect_s			sk_detect_t;$/;"	t	typeref:struct:sk_detect_s
+sk_disable_accept_events	event/sk_event_accept.c	/^sk_disable_accept_events(sk_cycle_t *cycle)$/;"	f	file:
+sk_empty_handler	ids/sk_ids_request.c	/^void sk_empty_handler(sk_event_t *ev)$/;"	f
+sk_enable_accept_events	event/sk_event_accept.c	/^sk_enable_accept_events(sk_cycle_t *cycle)$/;"	f	file:
+sk_epoll_add_event	event/sk_event_epoll.c	/^sk_epoll_add_event(sk_event_t *ev,sk_ptr_t event ,sk_uptr_t flags)$/;"	f
+sk_epoll_del_event	event/sk_event_epoll.c	/^sk_epoll_del_event(sk_event_t *ev,sk_ptr_t event ,sk_uptr_t flags)$/;"	f
+sk_epoll_process_events	event/sk_event_epoll.c	/^sk_epoll_process_events(sk_cycle_t *cycle,sk_msec_t timer,sk_uptr_t flags)$/;"	f	file:
+sk_err_t	os/sk_define.h	/^typedef int		sk_err_t;$/;"	t
+sk_event_accept	event/sk_event_accept.c	/^sk_event_accept(sk_event_t *ev)$/;"	f
+sk_event_add_timer	event/sk_event_timer.c	/^sk_event_add_timer(sk_event_t *ev,sk_msec_t timer)$/;"	f
+sk_event_del_timer	event/sk_event_timer.h	/^sk_event_del_timer(sk_event_t *ev)$/;"	f
+sk_event_expire_timer	event/sk_event_timer.c	/^sk_event_expire_timer(void)$/;"	f
+sk_event_find_timer	event/sk_event_timer.c	/^sk_event_find_timer(void)$/;"	f
+sk_event_flags	event/sk_event.c	/^sk_uptr_t				sk_event_flags;$/;"	v
+sk_event_handler_pt	event/sk_event.h	/^typedef void(*sk_event_handler_pt)(sk_event_t *ev);$/;"	t
+sk_event_module_init	event/sk_event.c	/^sk_event_module_init(sk_cycle_t *cycle)$/;"	f
+sk_event_process_posted	event/sk_event_posted.c	/^sk_event_process_posted(sk_cycle_t *cycle,sk_event_t **posted)$/;"	f
+sk_event_s	event/sk_event.h	/^struct sk_event_s{$/;"	s
+sk_event_t	core/sk_core.h	/^typedef struct sk_event_s			sk_event_t;$/;"	t	typeref:struct:sk_event_s
+sk_event_timer_alarm	event/sk_event.c	/^sig_atomic_t			sk_event_timer_alarm;$/;"	v
+sk_event_timer_mutex	event/sk_event_timer.c	/^sk_atomic_t						*sk_event_timer_mutex;$/;"	v
+sk_event_timer_rbtree	event/sk_event_timer.c	/^sk_rbtree_t						sk_event_timer_rbtree;$/;"	v
+sk_event_timer_sentinel	event/sk_event_timer.c	/^static sk_rbtree_node_t			sk_event_timer_sentinel;$/;"	v	file:
+sk_fd_t	core/sk_core.h	/^typedef int	sk_fd_t;$/;"	t
+sk_free_connection	core/sk_connection.c	/^sk_free_connection(sk_connection_t *c)$/;"	f
+sk_get_connection	core/sk_connection.c	/^sk_get_connection(sk_t s,sk_log_t *log)$/;"	f
+sk_gettimeofday	os/sk_times.h	13;"	d
+sk_gid_t	os/sk_define.h	/^typedef gid_t		sk_gid_t;$/;"	t
+sk_handle_read_event	event/sk_event.c	/^sk_handle_read_event(sk_event_t *rev,sk_uptr_t flags)$/;"	f
+sk_handle_write_event	event/sk_event.c	/^sk_handle_write_event(sk_event_t *wev,sk_uptr_t flags)$/;"	f
+sk_init_connection	ids/sk_ids_request.c	/^sk_init_connection(sk_connection_t *c)$/;"	f
+sk_init_cycle	core/sk_cycle.c	/^sk_init_cycle(sk_cycle_t *old_cycle)$/;"	f
+sk_init_epoll	event/sk_event_epoll.c	/^sk_init_epoll(sk_cycle_t *cycle)$/;"	f
+sk_init_event_process	event/sk_event.c	/^sk_init_event_process(sk_cycle_t *cycle)$/;"	f
+sk_init_event_timer	event/sk_event_timer.c	/^sk_init_event_timer(sk_log_t *log)$/;"	f
+sk_init_ids	ids/sk_ids.c	/^sk_init_ids(sk_cycle_t *cycle){$/;"	f
+sk_init_listening	core/sk_connection.c	/^sk_init_listening(sk_cycle_t *cycle)$/;"	f
+sk_init_log	os/sk_log.c	/^sk_init_log(void)$/;"	f
+sk_init_rbtree	core/sk_rbtree.h	33;"	d
+sk_init_request	ids/sk_ids_request.c	/^void sk_init_request(sk_event_t *rev)$/;"	f
+sk_init_time	os/sk_times.c	/^sk_init_time(void)$/;"	f
+sk_listening_s	core/sk_connection.h	/^struct sk_listening_s{$/;"	s
+sk_listening_t	core/sk_core.h	/^typedef struct sk_listening_s		sk_listening_t;$/;"	t	typeref:struct:sk_listening_s
+sk_locked_post_event	event/sk_event_posted.h	9;"	d
+sk_log	os/sk_log.c	/^static sk_log_t			sk_log;$/;"	v	file:
+sk_log_file	os/sk_log.c	/^static sk_open_file_t	sk_log_file;$/;"	v	file:
+sk_log_s	os/sk_log.h	/^struct sk_log_s{$/;"	s
+sk_log_t	core/sk_core.h	/^typedef struct sk_log_s				sk_log_t;$/;"	t	typeref:struct:sk_log_s
+sk_master_process_cycle	core/sk_process_cycle.c	/^sk_master_process_cycle(sk_cycle_t *cycle)$/;"	f
+sk_memalign	os/sk_palloc.c	/^sk_memalign(size_t alignment,size_t size,sk_log_t *log)$/;"	f
+sk_memcpy	os/sk_define.h	60;"	d
+sk_memzero	os/sk_define.h	68;"	d
+sk_msec_int_t	event/sk_event_timer.h	/^typedef sk_rbtree_key_int_t	sk_msec_int_t;$/;"	t
+sk_msec_t	os/sk_times.h	/^typedef sk_uptr_t		sk_msec_t;$/;"	t
+sk_nc_recv	os/sk_socket.c	/^ssize_t sk_nc_recv(sk_connection_t *c,u_char *buf,size_t size)$/;"	f
+sk_nc_send	os/sk_socket.c	/^sk_nc_send(sk_connection_t *c,u_char *buf,size_t size)$/;"	f
+sk_ncpu	os/sk_config.h	/^sk_ptr_t  sk_ncpu;$/;"	v
+sk_nonblocking	core/sk_connection.c	/^ int sk_nonblocking(int s)$/;"	f
+sk_null_string	os/sk_define.h	62;"	d
+sk_open_file_s	os/sk_log.h	/^struct sk_open_file_s{$/;"	s
+sk_open_file_t	core/sk_core.h	/^typedef struct sk_open_file_s		sk_open_file_t;$/;"	t	typeref:struct:sk_open_file_s
+sk_open_listening_sockets	core/sk_connection.c	/^sk_open_listening_sockets(sk_cycle_t *cycle)$/;"	f
+sk_palloc	os/sk_palloc.c	/^sk_palloc(sk_pool_t *pool,size_t size)$/;"	f
+sk_palloc_block	os/sk_palloc.c	/^sk_palloc_block(sk_pool_t *pool,size_t size)$/;"	f	file:
+sk_palloc_large	os/sk_palloc.c	/^sk_palloc_large(sk_pool_t *pool,size_t size)$/;"	f	file:
+sk_parse_rule	ids/sk_ids.c	/^static int sk_parse_rule(FILE* thefp, char* prule, int inclevel)$/;"	f	file:
+sk_parse_rule_file	ids/sk_ids.c	/^static int sk_parse_rule_file(char* file, int inclevel)$/;"	f	file:
+sk_pcalloc	os/sk_palloc.c	/^sk_pcalloc(sk_pool_t *pool,size_t size)$/;"	f
+sk_pid	core/sk_process.c	/^sk_pid_t	sk_pid;$/;"	v
+sk_pid_t	os/sk_define.h	/^typedef pid_t		sk_pid_t;$/;"	t
+sk_pnalloc	os/sk_palloc.c	/^sk_pnalloc(sk_pool_t *pool,size_t size)$/;"	f
+sk_pool_cleanup_pt	os/sk_palloc.h	/^typedef void (*sk_pool_cleanup_pt)(void *data);$/;"	t
+sk_pool_cleanup_s	os/sk_palloc.h	/^struct sk_pool_cleanup_s{$/;"	s
+sk_pool_cleanup_t	core/sk_core.h	/^typedef struct sk_pool_cleanup_s	sk_pool_cleanup_t;$/;"	t	typeref:struct:sk_pool_cleanup_s
+sk_pool_data_t	os/sk_palloc.h	/^}sk_pool_data_t;$/;"	t	typeref:struct:__anon2
+sk_pool_large_s	os/sk_palloc.h	/^struct sk_pool_large_s{$/;"	s
+sk_pool_large_t	core/sk_core.h	/^typedef struct sk_pool_large_s		sk_pool_large_t;$/;"	t	typeref:struct:sk_pool_large_s
+sk_pool_s	os/sk_palloc.h	/^struct sk_pool_s{$/;"	s
+sk_pool_t	core/sk_core.h	/^typedef struct sk_pool_s				sk_pool_t;$/;"	t	typeref:struct:sk_pool_s
+sk_post_event	event/sk_event_posted.h	27;"	d
+sk_posted_accept_events	event/sk_event_posted.c	/^sk_event_t 	*sk_posted_accept_events;$/;"	v
+sk_posted_events	event/sk_event_posted.c	/^sk_event_t		*sk_posted_events;$/;"	v
+sk_process_events	event/sk_event_epoll.c	/^sk_process_events(sk_cycle_t *cycle,sk_msec_t timer,sk_uptr_t flags)$/;"	f
+sk_process_events_and_times	event/sk_event.c	/^sk_process_events_and_times(sk_cycle_t *cycle)$/;"	f
+sk_process_t	core/sk_process.h	/^}sk_process_t;$/;"	t	typeref:struct:__anon5
+sk_ptr_t	os/sk_define.h	/^typedef intptr_t	sk_ptr_t;$/;"	t
+sk_queue_s	core/sk_connection.h	/^struct sk_queue_s{$/;"	s
+sk_queue_t	core/sk_core.h	/^typedef struct sk_queue_s			sk_queue_t;$/;"	t	typeref:struct:sk_queue_s
+sk_rbt_black	core/sk_rbtree.h	40;"	d
+sk_rbt_copy_color	core/sk_rbtree.h	43;"	d
+sk_rbt_is_black	core/sk_rbtree.h	42;"	d
+sk_rbt_is_red	core/sk_rbtree.h	41;"	d
+sk_rbt_red	core/sk_rbtree.h	39;"	d
+sk_rbtree_delete	core/sk_rbtree.c	/^sk_rbtree_delete(sk_rbtree_t *tree,sk_rbtree_node_t *node)$/;"	f
+sk_rbtree_insert	core/sk_rbtree.c	/^sk_rbtree_insert(sk_rbtree_t *tree,sk_rbtree_node_t *node)$/;"	f
+sk_rbtree_insert_pt	core/sk_rbtree.h	/^typedef void(*sk_rbtree_insert_pt)(sk_rbtree_node_t *root,sk_rbtree_node_t *node,$/;"	t
+sk_rbtree_insert_timer_value	core/sk_rbtree.c	/^sk_rbtree_insert_timer_value(sk_rbtree_node_t *temp,sk_rbtree_node_t * node,$/;"	f
+sk_rbtree_insert_value	core/sk_rbtree.c	/^sk_rbtree_insert_value(sk_rbtree_node_t *temp,sk_rbtree_node_t *node,$/;"	f
+sk_rbtree_key_int_t	core/sk_rbtree.h	/^typedef sk_ptr_t						sk_rbtree_key_int_t;$/;"	t
+sk_rbtree_key_t	core/sk_rbtree.h	/^typedef sk_uptr_t						sk_rbtree_key_t;$/;"	t
+sk_rbtree_left_rotate	core/sk_rbtree.c	/^sk_rbtree_left_rotate(sk_rbtree_node_t **root,sk_rbtree_node_t *sentinel,$/;"	f	file:
+sk_rbtree_min	core/sk_rbtree.h	/^sk_rbtree_min(sk_rbtree_node_t *node,sk_rbtree_node_t *sentinel){$/;"	f
+sk_rbtree_node_s	core/sk_rbtree.h	/^struct sk_rbtree_node_s{$/;"	s
+sk_rbtree_node_t	core/sk_rbtree.h	/^typedef struct sk_rbtree_node_s 	sk_rbtree_node_t;$/;"	t	typeref:struct:sk_rbtree_node_s
+sk_rbtree_right_rotate	core/sk_rbtree.c	/^sk_rbtree_right_rotate(sk_rbtree_node_t **root,sk_rbtree_node_t *sentinel,$/;"	f	file:
+sk_rbtree_s	core/sk_rbtree.h	/^struct sk_rbtree_s{$/;"	s
+sk_rbtree_sentinel_init	core/sk_rbtree.h	46;"	d
+sk_rbtree_t	core/sk_rbtree.h	/^typedef struct sk_rbtree_s			sk_rbtree_t;$/;"	t	typeref:struct:sk_rbtree_s
+sk_recv_chain_pt	core/sk_connection.h	/^typedef ssize_t (*sk_recv_chain_pt)(sk_connection_t *c ,sk_chain_t *in);$/;"	t
+sk_recv_pt	core/sk_connection.h	/^typedef ssize_t (*sk_recv_pt)(sk_connection_t *c ,u_char *buf,size_t size);$/;"	t
+sk_sched_yield	core/sk_shmtx.h	43;"	d
+sk_send_chain_pt	core/sk_connection.h	/^typedef sk_chain_t (*sk_send_chain_pt)(sk_connection_t *c ,sk_chain_t *in);$/;"	t
+sk_send_pt	core/sk_connection.h	/^typedef ssize_t (*sk_send_pt)(sk_connection_t *c ,u_char *buf,size_t size);$/;"	t
+sk_shm_alloc	core/sk_shmtx.c	/^sk_shm_alloc(sk_shm_t *shm)$/;"	f
+sk_shm_t	core/sk_shmtx.h	/^}sk_shm_t;$/;"	t	typeref:struct:__anon3
+sk_shmtx_create	core/sk_shmtx.c	/^sk_shmtx_create(sk_shmtx_t *mtx,void *addr,u_char *name)$/;"	f
+sk_shmtx_lock	core/sk_shmtx.c	/^sk_shmtx_lock(sk_shmtx_t *mtx)$/;"	f
+sk_shmtx_t	core/sk_shmtx.h	/^}sk_shmtx_t;$/;"	t	typeref:struct:__anon4
+sk_shmtx_trylock	core/sk_shmtx.c	/^sk_shmtx_trylock(sk_shmtx_t *mtx)$/;"	f
+sk_shmtx_unlock	core/sk_shmtx.c	/^sk_shmtx_unlock(sk_shmtx_t *mtx)$/;"	f
+sk_singal_helper	os/sk_define.h	56;"	d
+sk_singal_value	os/sk_define.h	57;"	d
+sk_spawn_proc_pt	core/sk_process.h	/^typedef void(*sk_spawn_proc_pt)(sk_cycle_t *cycle,void *data);$/;"	t
+sk_spawn_process	core/sk_process.c	/^sk_spawn_process(sk_cycle_t *cycle,sk_spawn_proc_pt proc,void * data, char *name,sk_ptr_t respawn)$/;"	f
+sk_start_worker_process	core/sk_process_cycle.c	/^sk_start_worker_process(sk_cycle_t *cycle,sk_ptr_t n,sk_ptr_t type)$/;"	f	file:
+sk_str_null	os/sk_define.h	65;"	d
+sk_str_set	os/sk_define.h	64;"	d
+sk_str_t	os/sk_define.h	/^}sk_str_t;$/;"	t	typeref:struct:__anon1
+sk_string	os/sk_define.h	63;"	d
+sk_t	os/sk_define.h	/^typedef int		sk_t;$/;"	t
+sk_time_lock	os/sk_times.c	/^static sk_atomic_t			sk_time_lock;$/;"	v	file:
+sk_time_update	os/sk_times.c	/^sk_time_update(void)$/;"	f
+sk_timer_resolution	event/sk_event.c	/^static sk_uptr_t		sk_timer_resolution;$/;"	v	file:
+sk_timer_signal_handler	event/sk_event.c	/^sk_timer_signal_handler(int signo)$/;"	f
+sk_trylock	core/sk_shmtx.h	40;"	d
+sk_trylock_accept_mutex	event/sk_event_accept.c	/^sk_trylock_accept_mutex(sk_cycle_t *cycle)$/;"	f
+sk_uid_t	os/sk_define.h	/^typedef uid_t		sk_uid_t;$/;"	t
+sk_unlock	core/sk_shmtx.h	41;"	d
+sk_uptr_t	os/sk_define.h	/^typedef uintptr_t		sk_uptr_t;$/;"	t
+sk_use_accept_mutex	event/sk_event.c	/^sk_uptr_t				sk_use_accept_mutex;$/;"	v
+sk_worker_detect_cycle	core/sk_process_cycle.c	/^sk_worker_detect_cycle(sk_cycle_t *cycle,void *data)$/;"	f	file:
+sk_worker_process_cycle	core/sk_process_cycle.c	/^sk_worker_process_cycle(sk_cycle_t *cycle,void *data)$/;"	f	file:
+sk_worker_process_init	core/sk_process_cycle.c	/^sk_worker_process_init(sk_cycle_t *cycle,sk_ptr_t priority)$/;"	f	file:
+skdetect	ids/sk_detect.c	/^static sk_detect_t skdetect;$/;"	v	file:
+sndbuf	core/sk_connection.h	/^	sk_t				sndbuf;$/;"	m	struct:sk_listening_s
+sockaddr	core/sk_connection.h	/^	struct sockaddr	*sockaddr;$/;"	m	struct:sk_connection_s	typeref:struct:sk_connection_s::sockaddr
+sockaddr	core/sk_connection.h	/^	struct sockaddr_in	sockaddr;$/;"	m	struct:sk_listening_s	typeref:struct:sk_listening_s::sockaddr_in
+socklen	core/sk_connection.h	/^	socklen_t			socklen;$/;"	m	struct:sk_connection_s
+socklen	core/sk_connection.h	/^	socklen_t			socklen;$/;"	m	struct:sk_listening_s
+sortcmp	ids/mwm.c	/^static int CDECL sortcmp( const void * e1, const void * e2 )$/;"	f	file:
+spin	core/sk_shmtx.h	/^	sk_uptr_t			spin;$/;"	m	struct:__anon4
+status	core/sk_process.h	/^	int						status;$/;"	m	struct:__anon5
+strip	ids/sk_tools.c	/^int strip(char *data)$/;"	f
+syndata	ids/mwm.c	/^BINARY * syndata( int nbytes, int irand, int repchar )$/;"	f
+tail	ids/sk_sdlist.h	/^    sdlist_item_t *tail;$/;"	m	struct:sf_sdlist_t
+tail	ids/test/sk_sdlist.h	/^    sdlist_item_t *tail;$/;"	m	struct:sf_sdlist_t
+timeout	core/sk_connection.h	/^	unsigned			timeout:1;$/;"	m	struct:sk_connection_s
+timeout	event/sk_event.h	/^	unsigned			timeout:1;$/;"	m	struct:sk_event_s
+timer	event/sk_event.h	/^	sk_rbtree_node_t	timer;$/;"	m	struct:sk_event_s
+timer_set	event/sk_event.h	/^	unsigned			timer_set:1;$/;"	m	struct:sk_event_s
+total	ids/sk_mem_pool.h	/^    POOL_COUNT total;$/;"	m	struct:_mempool_t
+total	ids/test/sk_mem_pool.h	/^    POOL_COUNT total;$/;"	m	struct:_mempool_t
+type	core/sk_connection.h	/^	sk_t				type;$/;"	m	struct:sk_listening_s
+type	ids/sk_rule.h	/^	char type[128];			\/\/type$/;"	m	struct:rule_node_t
+u16_t	os/sk_define.h	/^typedef uint16_t	u16_t;$/;"	t
+u32_t	os/sk_define.h	/^typedef uint32_t	u32_t;$/;"	t
+u64_t	os/sk_define.h	/^typedef uint64_t	u64_t;$/;"	t
+u8_t	os/sk_define.h	/^typedef uint8_t 	u8_t;$/;"	t
+uchar	ids/sk_tools.h	/^typedef unsigned char uchar;$/;"	t
+uiBitBufferSize	ids/bitop.h	/^    unsigned int  uiBitBufferSize;$/;"	m	struct:_BITOP
+uiMaxBits	ids/bitop.h	/^    unsigned int  uiMaxBits;$/;"	m	struct:_BITOP
+uint	ids/sk_tools.h	/^typedef unsigned int uint;$/;"	t
+ulong	ids/sk_tools.h	/^typedef unsigned long ulong;$/;"	t
+unpack_body_data	ids/sk_mempool_list.c	/^int unpack_body_data(char* json_body, char**sid, char** body)$/;"	f
+unpack_body_data	ids/test/sk_mempool_list.c	/^int unpack_body_data(char* json_body, char**sid, char** body)$/;"	f
+used	ids/sk_mem_pool.h	/^    POOL_COUNT used;  \/* used block count *\/$/;"	m	struct:_mempool_t
+used	ids/sk_mem_pool.h	/^    int used;$/;"	m	struct:_mem_bucket_t
+used	ids/test/sk_mem_pool.h	/^    POOL_COUNT used;  \/* used block count *\/$/;"	m	struct:_mempool_t
+used	ids/test/sk_mem_pool.h	/^    int used;$/;"	m	struct:_mem_bucket_t
+used_list	ids/sk_mem_pool.h	/^    sf_sdlist_t used_list;$/;"	m	struct:_mempool_t
+used_list	ids/test/sk_mem_pool.h	/^    sf_sdlist_t used_list;$/;"	m	struct:_mempool_t
+var_define	ids/sk_ids.c	/^static int var_define(char* name, char* value)$/;"	f	file:
+write	core/sk_connection.h	/^	sk_event_t			*write;$/;"	m	struct:sk_connection_s
+write	event/sk_event.h	/^	unsigned			write:1;$/;"	m	struct:sk_event_s
+write_events	core/sk_cycle.h	/^	sk_event_t				*write_events;$/;"	m	struct:sk_cycle_s
+xlatcase	ids/mwm.c	/^static unsigned char xlatcase[256];$/;"	v	file:

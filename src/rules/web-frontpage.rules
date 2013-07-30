@@ -1,0 +1,42 @@
+#################################
+#	Copyright(C) cs2c, Inc		#
+#		All rights reserved		#
+#################################
+#--------------------
+# WEB-FRONTPAGE RULES
+#--------------------
+rule level:"alert"; msg:"WEB-FRONTPAGE rad fp30reg.dll access"; uricontent:"/fp30reg.dll"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE frontpage rad fp4areg.dll access"; uricontent:"/fp4areg.dll"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE _vti_rpc access"; uricontent:"/_vti_rpc"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE posting"; content:"POST"; uricontent:"/author.dll"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE shtml.dll access"; uricontent:"/_vti_bin/shtml.dll"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE contents.htm access"; uricontent:"/admcgi/contents.htm"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE orders.htm access"; uricontent:"/_private/orders.htm"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE fpsrvadm.exe access"; uricontent:"/fpsrvadm.exe"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE fpremadm.exe access"; uricontent:"/fpremadm.exe"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE fpadmin.htm access"; uricontent:"/admisapi/fpadmin.htm"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE fpadmcgi.exe access"; uricontent:"/scripts/Fpadmcgi.exe"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE orders.txt access"; uricontent:"/_private/orders.txt"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE form_results access"; uricontent:"/_private/form_results.txt"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE registrations.htm access"; uricontent:"/_private/registrations.htm"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE cfgwiz.exe access"; uricontent:"/cfgwiz.exe"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE authors.pwd access"; uricontent:"/authors.pwd"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE author.exe access"; uricontent:"/_vti_bin/_vti_aut/author.exe"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE administrators.pwd access"; uricontent:"/administrators.pwd"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE form_results.htm access"; uricontent:"/_private/form_results.htm"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE access.cnf access"; uricontent:"/_vti_pvt/access.cnf"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE register.txt access"; uricontent:"/_private/register.txt"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE registrations.txt access"; uricontent:"/_private/registrations.txt"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE service.cnf access"; uricontent:"/_vti_pvt/service.cnf"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE service.pwd"; uricontent:"/service.pwd"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE service.stp access"; uricontent:"/_vti_pvt/service.stp"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE services.cnf access"; uricontent:"/_vti_pvt/services.cnf"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE shtml.exe access"; uricontent:"/_vti_bin/shtml.exe"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE svcacl.cnf access"; uricontent:"/_vti_pvt/svcacl.cnf"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE users.pwd access"; uricontent:"/users.pwd"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE writeto.cnf access"; uricontent:"/_vti_pvt/writeto.cnf"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE .... request"; uricontent:"..../"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-FRONTPAGE dvwssr.dll access"; uricontent:"/dvwssr.dll"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE register.htm access"; uricontent:"/_private/register.htm"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE /_vti_bin/ access"; uricontent:"/_vti_bin/"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-FRONTPAGE _vti_inf.html access"; uricontent:"/_vti_inf.html"; classtype:web-application-activity; 

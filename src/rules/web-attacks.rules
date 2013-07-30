@@ -1,0 +1,54 @@
+#################################
+#	Copyright(C) cs2c, Inc		#
+#		All rights reserved		#
+#################################
+# ----------------
+# WEB ATTACKS
+# ----------------
+rule level:"alert"; msg:"WEB-ATTACKS ps command attempt"; uricontent:"/bin/ps"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /bin/ps command attempt"; uricontent:"ps%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS wget command attempt"; content:"wget%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS uname -a command attempt"; content:"uname%20-a"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /usr/bin/id command attempt"; content:"/usr/bin/id"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS id command attempt"; content:"|3B|id"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS echo command attempt"; content:"/bin/echo"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS kill command attempt"; content:"/bin/kill"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS chmod command attempt"; content:"/bin/chmod"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS chgrp command attempt"; content:"/chgrp"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS chown command attempt"; content:"/chown"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS chsh command attempt"; content:"/usr/bin/chsh"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS tftp command attempt"; content:"tftp%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /usr/bin/gcc command attempt"; content:"/usr/bin/gcc"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS gcc command attempt"; content:"gcc%20-o"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /usr/bin/cc command attempt"; content:"/usr/bin/cc"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS cc command attempt"; content:"cc%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /usr/bin/cpp command attempt"; content:"/usr/bin/cpp"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS cpp command attempt"; content:"cpp%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /usr/bin/g++ command attempt"; content:"/usr/bin/g++"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS g++ command attempt"; content:"g++%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS bin/python access attempt"; content:"bin/python"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS python access attempt"; content:"python%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS bin/tclsh execution attempt"; content:"bin/tclsh"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS tclsh execution attempt"; content:"tclsh8%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS bin/nasm command attempt"; content:"bin/nasm"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS nasm command attempt"; content:"nasm%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /usr/bin/perl execution attempt"; content:"/usr/bin/perl"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS perl execution attempt"; content:"perl%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS nt admin addition attempt"; content:"net localgroup administrators /add"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS traceroute command attempt"; content:"traceroute%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS ping command attempt"; content:"/bin/ping"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS netcat command attempt"; content:"nc%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS nmap command attempt"; content:"nmap%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS xterm command attempt"; content:"/usr/X11R6/bin/xterm"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS X application to remote host attempt"; content:"%20-display%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS lsof command attempt"; content:"lsof%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS rm command attempt"; content:"rm%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS mail command attempt"; content:"/bin/mail"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS mail command attempt"; content:"mail%20"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /bin/ls| command attempt"; uricontent:"/bin/ls|7C|"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /bin/ls command attempt"; uricontent:"/bin/ls"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-ATTACKS /etc/inetd.conf access"; content:"/etc/inetd.conf"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-ATTACKS /etc/motd access"; content:"/etc/motd"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-ATTACKS /etc/shadow access"; content:"/etc/shadow"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-ATTACKS conf/httpd.conf attempt"; content:"conf/httpd.conf"; classtype:web-application-activity; 
+rule level:"alert"; msg:"WEB-ATTACKS .htgroup access"; uricontent:".htgroup"; classtype:web-application-activity; 

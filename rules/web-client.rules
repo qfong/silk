@@ -1,0 +1,22 @@
+#################################
+#	Copyright(C) cs2c, Inc		#
+#		All rights reserved		#
+#################################
+#---------------
+# WEB-CLIENT RULES
+#---------------
+rule level:"alert"; msg:"WEB-CLIENT Outlook EML access"; uricontent:".eml"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT Microsoft emf metafile access"; uricontent:".emf"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT Microsoft wmf metafile access"; uricontent:".wmf"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT XMLHttpRequest attempt"; content:"new XMLHttpRequest|28|"; content:"file|3A|//"; classtype:web-application-attack; 
+rule level:"alert"; msg:"WEB-CLIENT readme.eml download attempt"; uricontent:"/readme.eml"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT readme.eml autoload attempt"; content:"window.open|28 22|readme.eml|22|"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT Javascript document.domain attempt"; content:"document.domain|28|"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT Javascript URL host spoofing attempt"; content:"javascript|3A|//"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT RealPlayer arbitrary javascript command attempt"; content:"Content-Type|3A|"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT RealPlayer playlist file URL overflow attempt"; content:"file|3A|//"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT RealPlayer playlist http URL overflow attempt"; content:"http|3A|//"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT RealPlayer playlist rtsp URL overflow attempt"; content:"rtsp|3A|//"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT Nortan antivirus sysmspam.dll load attempt"; content:"clsid|3A|"; content:"0534CF61-83C5-4765-B19B-45F7A4E135D0"; classtype:attempted-admin; 
+rule level:"alert"; msg:"WEB-CLIENT local resource redirection attempt"; content:"Location|3a|"; classtype:attempted-user; 
+rule level:"alert"; msg:"WEB-CLIENT Content-Disposition CLSID command attempt"; content:"Content-Disposition|3a|"; classtype:attempted-user; 
