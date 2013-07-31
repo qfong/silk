@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 // Written by qingfeng.wang,  some source code form snort,nginx.
 // http://www.selinuxplus.com frank.wqf@gmail.com
-// Thanks by China Standard software Co.,Ltd ;
+// Thanks to China Standard software Co.,Ltd ;
 
 #ifndef _SK_ALLOC_H_INCLUDE_
 #define _SK_ALLOC_H_INCLUDE_
