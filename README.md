@@ -9,7 +9,7 @@ silk
 
 // Written by qingfeng.wang,  some source code form snort,nginx.
 
-// Thanks by China Standard software Co.,Ltd ;
+//  China Standard software Co.,Ltd ;
 
 
 [Install  & Manual]
